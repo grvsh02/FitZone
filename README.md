@@ -1,4 +1,4 @@
-![Alt text](https://raw.githubusercontent.com/grvsh02/FitZone/master/Media/FitZone.png)
+<p align="center"><img src="https://raw.githubusercontent.com/grvsh02/FitZone/master/Media/FitZone.png" width="50%"/></a></p>
 
 # FitZone
 

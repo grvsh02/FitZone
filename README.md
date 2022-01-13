@@ -1,3 +1,5 @@
+![Alt text](https://raw.githubusercontent.com/grvsh02/FitZone/master/Media/FitZone.png)
+
 # FitZone
 
 This is a telegram bot. It keeps track of all the calories gained and lost according to the activities. It also generates reports for the user to keep track of there daily nutrions and exercises.

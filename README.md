@@ -4,15 +4,15 @@ This is a telegram bot. It keeps track of all the calories gained and lost accor
 
 ## 🏃‍ Getting Started 
 
-1.0 You can use "/nutrition Units Quantity-Type Food-Name" command to get the nutrients of a particular food. For eg: "/nutrition 1 piece chapati"
+- You can use "/nutrition Units Quantity-Type Food-Name" command to get the nutrients of a particular food. For eg: "/nutrition 1 piece chapati"
 
-2.1 For using the bot to get details about an exercise you need to first set the user data using the command "/user Name, Gender, Weight(in Kg), Height (in cm), Age". For eg: "/user Gaurav, Male, 80, 166, 20
+- For using the bot to get details about an exercise you need to first set the user data using the command "/user Name, Gender, Weight(in Kg), Height (in cm), Age". For eg: "/user Gaurav, Male, 80, 166, 20
 
-2.2 Then you can use the command "/execise Duration-amount Duration-unit Exercise-name" to get data about an exercise. For eg: "/exercise 40 minutes push-ups"
+- Then you can use the command "/execise Duration-amount Duration-unit Exercise-name" to get data about an exercise. For eg: "/exercise 40 minutes push-ups"
 
-3.0. You can use the command "/reports Report-name" to get the reports in CSV Format. For eg: "/reports nutrition" to get nutrition report and "/reports exercise" to get exercise reports or use the command "/reports nutrition, exercise" to get both nutrition and exercise reports
+- You can use the command "/reports Report-name" to get the reports in CSV Format. For eg: "/reports nutrition" to get nutrition report and "/reports exercise" to get exercise reports or use the command "/reports nutrition, exercise" to get both nutrition and exercise reports
 
-4.0. You can use the command "/stop" or the command "/bye" to stop the bot.
+- You can use the command "/stop" or the command "/bye" to stop the bot.
 
 ## 👀 Live-Preview 
 

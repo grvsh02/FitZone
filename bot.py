@@ -15,17 +15,18 @@ headers = {'Content-Type': 'application/json',
 user = {"first_name": None, "gender": None,
         "weight_kg": None, "height_cm": None, "birth_year": None}
 bot = telebot.TeleBot(HTTP_API)
-nutrition_csv = open("nutrition.csv","w")
-exercise_csv = open("exercise.csv","w")
-nutrition_writer = csv.writer(nutrition_csv)
-exercise_writer = csv.writer(exercise_csv)
 
 @bot.message_handler(commands=['start', 'hello'])
 def greet(message):
-    global botRunning
+    global botRunning, nutrition_csv, exercise_csv,nutrition_writer, exercise_writer
     botRunning = True
+    nutrition_csv = open("nutrition.csv", "w")
+    exercise_csv = open("exercise.csv", "w")
+    nutrition_writer = csv.writer(nutrition_csv)
+    exercise_writer = csv.writer(exercise_csv)
     nutrition_writer.writerow(["Food-Name","Quantity","Calories","Fat","Carbohydrates","Protien"])
     exercise_writer.writerow(["Exercise","Duration","Calories-Burned"]) 
+    
     bot.reply_to(
         message, 'Hello! I am TeleFit. Use me to monitor your health'+'\N{grinning face with smiling eyes}'+'\nYou can use the command \"/help\" to know more about me.')
 
